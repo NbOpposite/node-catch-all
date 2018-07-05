@@ -1,0 +1,19 @@
+{
+  "name": "catch-all",
+  "version": "0.0.1",
+  "description": "Node module that catches any and all (otherwise unhanded) exceptions, even those called asynchronously, thrown from the context of the calling funtion",
+  "main": "src/index",
+  "scripts": {
+    "test": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NbOpposite/node-catch-all.git"
+  },
+  "author": "Robin Dahlgren <admin@opposite.biz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NbOpposite/node-catch-all/issues"
+  },
+  "homepage": "https://github.com/NbOpposite/node-catch-all#readme"
+}
