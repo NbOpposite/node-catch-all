@@ -2,9 +2,12 @@
   "name": "catch-all",
   "version": "0.0.1",
   "description": "Node module that catches any and all (otherwise unhanded) exceptions, even those called asynchronously, thrown from the context of the calling funtion",
-  "main": "src/index",
+  "main": "src/index.js",
   "scripts": {
-    "test": "eslint src"
+	"test": "node --expose-gc test"
+  },
+  "directories": {
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/NbOpposite/node-catch-all/issues"
   },
-  "homepage": "https://github.com/NbOpposite/node-catch-all#readme"
+  "homepage": "https://github.com/NbOpposite/node-catch-all#readme",
+  "dependencies": {
+    "weak": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.0.1",
+    "mocha": "^5.2.0",
+    "mocha-assume": "^1.0.0"
+  }
 }
